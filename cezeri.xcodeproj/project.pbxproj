@@ -1,0 +1,596 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5959945F2547616200512F06 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5959945E2547616200512F06 /* AppDelegate.swift */; };
+		595994612547616200512F06 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 595994602547616200512F06 /* SceneDelegate.swift */; };
+		595994632547616200512F06 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 595994622547616200512F06 /* ContentView.swift */; };
+		595994652547616600512F06 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 595994642547616600512F06 /* Assets.xcassets */; };
+		595994682547616600512F06 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 595994672547616600512F06 /* Preview Assets.xcassets */; };
+		5959946B2547616600512F06 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 595994692547616600512F06 /* LaunchScreen.storyboard */; };
+		595994762547616700512F06 /* cezeriTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 595994752547616700512F06 /* cezeriTests.swift */; };
+		595994812547616700512F06 /* cezeriUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 595994802547616700512F06 /* cezeriUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		595994722547616700512F06 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 595994532547616200512F06 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5959945A2547616200512F06;
+			remoteInfo = cezeri;
+		};
+		5959947D2547616700512F06 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 595994532547616200512F06 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5959945A2547616200512F06;
+			remoteInfo = cezeri;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5959945B2547616200512F06 /* cezeri.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cezeri.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5959945E2547616200512F06 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		595994602547616200512F06 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		595994622547616200512F06 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		595994642547616600512F06 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		595994672547616600512F06 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5959946A2547616600512F06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5959946C2547616600512F06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		595994712547616700512F06 /* cezeriTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cezeriTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		595994752547616700512F06 /* cezeriTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cezeriTests.swift; sourceTree = "<group>"; };
+		595994772547616700512F06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5959947C2547616700512F06 /* cezeriUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cezeriUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		595994802547616700512F06 /* cezeriUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cezeriUITests.swift; sourceTree = "<group>"; };
+		595994822547616700512F06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		595994582547616200512F06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5959946E2547616700512F06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		595994792547616700512F06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		595994522547616200512F06 = {
+			isa = PBXGroup;
+			children = (
+				5959945D2547616200512F06 /* cezeri */,
+				595994742547616700512F06 /* cezeriTests */,
+				5959947F2547616700512F06 /* cezeriUITests */,
+				5959945C2547616200512F06 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5959945C2547616200512F06 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5959945B2547616200512F06 /* cezeri.app */,
+				595994712547616700512F06 /* cezeriTests.xctest */,
+				5959947C2547616700512F06 /* cezeriUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5959945D2547616200512F06 /* cezeri */ = {
+			isa = PBXGroup;
+			children = (
+				5959945E2547616200512F06 /* AppDelegate.swift */,
+				595994602547616200512F06 /* SceneDelegate.swift */,
+				595994622547616200512F06 /* ContentView.swift */,
+				595994642547616600512F06 /* Assets.xcassets */,
+				595994692547616600512F06 /* LaunchScreen.storyboard */,
+				5959946C2547616600512F06 /* Info.plist */,
+				595994662547616600512F06 /* Preview Content */,
+			);
+			path = cezeri;
+			sourceTree = "<group>";
+		};
+		595994662547616600512F06 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				595994672547616600512F06 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		595994742547616700512F06 /* cezeriTests */ = {
+			isa = PBXGroup;
+			children = (
+				595994752547616700512F06 /* cezeriTests.swift */,
+				595994772547616700512F06 /* Info.plist */,
+			);
+			path = cezeriTests;
+			sourceTree = "<group>";
+		};
+		5959947F2547616700512F06 /* cezeriUITests */ = {
+			isa = PBXGroup;
+			children = (
+				595994802547616700512F06 /* cezeriUITests.swift */,
+				595994822547616700512F06 /* Info.plist */,
+			);
+			path = cezeriUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5959945A2547616200512F06 /* cezeri */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 595994852547616700512F06 /* Build configuration list for PBXNativeTarget "cezeri" */;
+			buildPhases = (
+				595994572547616200512F06 /* Sources */,
+				595994582547616200512F06 /* Frameworks */,
+				595994592547616200512F06 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = cezeri;
+			productName = cezeri;
+			productReference = 5959945B2547616200512F06 /* cezeri.app */;
+			productType = "com.apple.product-type.application";
+		};
+		595994702547616700512F06 /* cezeriTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 595994882547616700512F06 /* Build configuration list for PBXNativeTarget "cezeriTests" */;
+			buildPhases = (
+				5959946D2547616700512F06 /* Sources */,
+				5959946E2547616700512F06 /* Frameworks */,
+				5959946F2547616700512F06 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				595994732547616700512F06 /* PBXTargetDependency */,
+			);
+			name = cezeriTests;
+			productName = cezeriTests;
+			productReference = 595994712547616700512F06 /* cezeriTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5959947B2547616700512F06 /* cezeriUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5959948B2547616700512F06 /* Build configuration list for PBXNativeTarget "cezeriUITests" */;
+			buildPhases = (
+				595994782547616700512F06 /* Sources */,
+				595994792547616700512F06 /* Frameworks */,
+				5959947A2547616700512F06 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5959947E2547616700512F06 /* PBXTargetDependency */,
+			);
+			name = cezeriUITests;
+			productName = cezeriUITests;
+			productReference = 5959947C2547616700512F06 /* cezeriUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		595994532547616200512F06 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1210;
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					5959945A2547616200512F06 = {
+						CreatedOnToolsVersion = 12.1;
+					};
+					595994702547616700512F06 = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = 5959945A2547616200512F06;
+					};
+					5959947B2547616700512F06 = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = 5959945A2547616200512F06;
+					};
+				};
+			};
+			buildConfigurationList = 595994562547616200512F06 /* Build configuration list for PBXProject "cezeri" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 595994522547616200512F06;
+			productRefGroup = 5959945C2547616200512F06 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5959945A2547616200512F06 /* cezeri */,
+				595994702547616700512F06 /* cezeriTests */,
+				5959947B2547616700512F06 /* cezeriUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		595994592547616200512F06 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5959946B2547616600512F06 /* LaunchScreen.storyboard in Resources */,
+				595994682547616600512F06 /* Preview Assets.xcassets in Resources */,
+				595994652547616600512F06 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5959946F2547616700512F06 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5959947A2547616700512F06 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		595994572547616200512F06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5959945F2547616200512F06 /* AppDelegate.swift in Sources */,
+				595994612547616200512F06 /* SceneDelegate.swift in Sources */,
+				595994632547616200512F06 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5959946D2547616700512F06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				595994762547616700512F06 /* cezeriTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		595994782547616700512F06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				595994812547616700512F06 /* cezeriUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		595994732547616700512F06 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5959945A2547616200512F06 /* cezeri */;
+			targetProxy = 595994722547616700512F06 /* PBXContainerItemProxy */;
+		};
+		5959947E2547616700512F06 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5959945A2547616200512F06 /* cezeri */;
+			targetProxy = 5959947D2547616700512F06 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		595994692547616600512F06 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5959946A2547616600512F06 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		595994832547616700512F06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		595994842547616700512F06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		595994862547616700512F06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"cezeri/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = cezeri/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Su.cezeri;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		595994872547616700512F06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"cezeri/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = cezeri/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Su.cezeri;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		595994892547616700512F06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = cezeriTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Su.cezeriTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cezeri.app/cezeri";
+			};
+			name = Debug;
+		};
+		5959948A2547616700512F06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = cezeriTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Su.cezeriTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cezeri.app/cezeri";
+			};
+			name = Release;
+		};
+		5959948C2547616700512F06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = cezeriUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Su.cezeriUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = cezeri;
+			};
+			name = Debug;
+		};
+		5959948D2547616700512F06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = cezeriUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Su.cezeriUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = cezeri;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		595994562547616200512F06 /* Build configuration list for PBXProject "cezeri" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				595994832547616700512F06 /* Debug */,
+				595994842547616700512F06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		595994852547616700512F06 /* Build configuration list for PBXNativeTarget "cezeri" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				595994862547616700512F06 /* Debug */,
+				595994872547616700512F06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		595994882547616700512F06 /* Build configuration list for PBXNativeTarget "cezeriTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				595994892547616700512F06 /* Debug */,
+				5959948A2547616700512F06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5959948B2547616700512F06 /* Build configuration list for PBXNativeTarget "cezeriUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5959948C2547616700512F06 /* Debug */,
+				5959948D2547616700512F06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 595994532547616200512F06 /* Project object */;
+}
